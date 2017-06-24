@@ -1,0 +1,34 @@
+page {
+  background-color: #fff;
+}
+
+.nav-item {
+  float: left;
+  width: 374rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.nav-item:first-child {
+  width: 373rpx;
+  border-right: 1rpx solid #f0f0f0;
+}
+
+.top-banner {
+  width: 750rpx;
+}
+
+.logo-wall {
+  width: 750rpx;
+}
+
+.full {
+  width: 750rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.footer-banner {
+  float: left;
+  width: 750rpx;
+  height: 290rpx;
+  margin-bottom: 20rpx;
+}

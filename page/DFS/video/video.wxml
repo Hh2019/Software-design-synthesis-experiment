@@ -1,0 +1,4 @@
+<!--video.wxml-->
+<view class="video-container">
+  <video class="my-video" id="myVideo" src="https://om536p71r.qnssl.com/SS17_MD_30s_MOM_%E6%A0%87%E5%87%86%E7%89%88.mp4" controls></video>
+</view>

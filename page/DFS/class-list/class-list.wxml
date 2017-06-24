@@ -1,0 +1,35 @@
+<view class="class-list-container">
+  <image mode="widthFix" bindtap="routerGoHome" class="dfs-banner" src="{{shopInfo.header_banner}}"></image>
+  <!--<navigator url="/page/DFS/promotions/promotions">
+    <image mode="widthFix" class="top-banner" src="https://ww3.sinaimg.cn/large/006tNc79gy1femottcte0j30v90go7e2.jpg"></image>
+  </navigator>-->
+  <!--<navigator url="/page/DFS/product-list/product-list?class_name={{class_name}}" wx:for="{{lists}}">
+    <image mode="widthFix" class="nav-item" src="{{item.class_url}}"></image>
+  </navigator>-->
+  <!--<navigator url="/page/DFS/product-list/product-list?class_name=Earring">
+    <image mode="widthFix" class="nav-item" src="{{lists[1].class_url}}"></image>
+  </navigator>
+  <navigator url="/page/DFS/product-list/product-list?class_name=Bracelet">
+    <image mode="widthFix" class="nav-item" src="{{lists[0].class_url}}"></image>
+  </navigator>
+  <navigator url="/page/DFS/product-list/product-list?class_name=Necklace">
+    <image mode="widthFix" class="nav-item" src="{{lists[2].class_url}}" class="full"></image>
+  </navigator>-->
+  <view style="background-color: #f0f0f0; float: left; width: 750rpx; height: 20rpx;"></view>
+  
+  <navigator style="background-color: #f0f0f0;" url="../artical/artical?artical_id={{item.artical_id}}" wx:for="{{articalList}}">
+    <image mode="widthFix" class="footer-banner" src="{{item.enter_banner}}"></image>
+    <view class="clearfix"></view>
+  </navigator>
+  <view class="clearfix"></view>
+  <view style="background-color: #f0f0f0; float: left; width: 750rpx; height: 40rpx;"></view>
+  
+</view>
+
+<!--<image mode="widthFix" class="logo-wall" src="http://ww2.sinaimg.cn/large/006tKfTcgy1fesmg3ad47j30ks0fzacr.jpg"></image>-->
+
+<view style="background-color: #f0f0f0;" class="footbar-takeplace"></view>
+<view style="background-color: #f0f0f0;" class="footbar-takeplace"></view>
+<view style="background-color: #f0f0f0;" class="footbar-takeplace"></view>
+<import src="../../component/footbar/footbar.wxml"/>
+<template is="footbar" data="{{footbarState}}"/>
